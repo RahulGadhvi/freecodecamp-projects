@@ -1,9 +1,10 @@
-﻿# Here are all the freecodecamp projects i made for the certification purpose
-<h1>FreeCodeCamp.org Projects</h1>
-<ol><li>CatPhotoApp</li>
-    <li>Cafe-Menu</li>
-    <li>Colored-Markers</li>
-    <li>Registration-form</li>
-</ol>
+﻿# FreeCodeCamp.org Projects
 
+This repository contains a collection of projects completed for certification purposes on FreeCodeCamp.org.
 
+## Projects List
+
+- [CatPhotoApp](#)
+- [Cafe-Menu](#)
+- [Colored-Markers](#)
+- [Registration-form](#)
