@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+p{
+    margin: 0;
+    text-align: center;
+    font-size: large;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #4CAF50;
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='%23000000'%3E%3Cpath d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z'/%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: auto;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Center the h1 */
+h1 {
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    form {
+        padding: 25px;
+    }
+}
